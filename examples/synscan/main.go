@@ -24,11 +24,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/google/gopacket"
-	"github.com/google/gopacket/examples/util"
-	"github.com/google/gopacket/layers"
-	"github.com/google/gopacket/pcap"
-	"github.com/google/gopacket/routing"
+	"github.com/CapitanShinChan/gopacket"
+	"github.com/CapitanShinChan/gopacket/examples/util"
+	"github.com/CapitanShinChan/gopacket/layers"
+	"github.com/CapitanShinChan/gopacket/pcap"
+	"github.com/CapitanShinChan/gopacket/routing"
 )
 
 // scanner handles scanning a single IP address.
