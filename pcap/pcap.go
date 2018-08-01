@@ -15,9 +15,9 @@ package pcap
 #cgo openbsd LDFLAGS: -lpcap
 #cgo netbsd LDFLAGS: -lpcap
 #cgo darwin LDFLAGS: -lpcap
-#cgo windows CFLAGS: -I C:/WpdPack/Include
-#cgo windows,386 LDFLAGS: -L C:/WpdPack/Lib -lwpcap
-#cgo windows,amd64 LDFLAGS: -L C:/WpdPack/Lib/x64 -lwpcap
+#cgo windows CFLAGS: -I C:/npcap-sdk-0.1/Include
+#cgo windows,386 LDFLAGS: -L C:/npcap-sdk-0.1/Lib -lwpcap
+#cgo windows,amd64 LDFLAGS: -L C:/npcap-sdk-0.1/Lib/x64 -lwpcap
 #include <stdlib.h>
 #include <pcap.h>
 #include <stdint.h>
